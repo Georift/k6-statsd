@@ -16,7 +16,7 @@ jobs:
         uses: docker/metadata-action@v5
         id: meta
         with:
-          images: ghcr.io/georift/k6-statsd
+          images: ghcr.io/Georift/k6-statsd
           tags: |
             type=sha
             type=raw,value=latest,enable={{is_default_branch}}
